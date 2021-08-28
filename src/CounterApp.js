@@ -17,7 +17,7 @@ let handleSubstract = () => {
   return (
     <>
     <h1>Counter App</h1>
-      <h1>{counter}</h1>
+      <h2>{counter}</h2>
 
       <button onClick={handleAdd}>+1</button>
       <button onClick={handleReset}>Reset</button>
@@ -29,5 +29,8 @@ let handleSubstract = () => {
 CounterApp.propTypes = {
   value: PropTypes.number.isRequired,
 };
+CounterApp.defaultProps = {
+  value: 0
+}
 
 export default CounterApp;

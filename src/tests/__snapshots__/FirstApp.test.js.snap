@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing - FirstApp Component should render 1`] = `
+<Fragment>
+  <h1>
+    que verga quieres
+    !!!
+  </h1>
+  <p>
+    Soy un pinche subtitulo
+  </p>
+</Fragment>
+`;
